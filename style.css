@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(50, 33, 21);
+    
+    background-repeat:repeat-y;
+    background-size: 90%;
+    
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background-color: rgba(66, 71, 60, 0.4);
+    margin-bottom: 6rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+.card img{
+    height: 400px;
+}
+
+.card div{
+    padding: 2rem;
+}
+
+.card img {
+    order: 2;
+    box-shadow:  3px 3px 3px rgba(108, 68, 68, 0.6);
+    
+
+}
+
+.btn{
+    background-color: rgb(50, 33, 21);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+h1{
+    border-bottom: double 5px;
+}
+
+.card2{
+
+    width: 35%;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+    top: 5px;
+    left: 70px;
+}
